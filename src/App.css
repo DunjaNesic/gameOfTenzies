@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F9B4F6;
+}
+
+.parent-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: #F5F5F5;
+    position: absolute;
+    min-height: 50%;
+    min-width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    border-radius: 2rem;
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    padding: 1rem;
+    place-items: center;
+}
+
+.rollBtn{
+    padding: 2rem 2.5rem;
+    background-color: #5DF15D;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 130%);
+    cursor: pointer;
+}
+
+.title{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
