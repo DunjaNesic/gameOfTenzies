@@ -14,21 +14,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .box {
     background-color: #F5F5F5;
-    position: absolute;
-    min-height: 50%;
-    min-width: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -70%);
+    min-height: 20rem;
+    min-width: 15rem;
     border-radius: 2rem;
     display: grid;
     grid-template: auto auto / repeat(5, 1fr);
-    padding: 1rem;
+    padding: 2.5rem 3rem;
     place-items: center;
+    gap: 3rem;
 }
 
 .rollBtn{
@@ -38,10 +37,6 @@ body {
     border: none;
     font-size: 2rem;
     font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 130%);
     cursor: pointer;
 }
 

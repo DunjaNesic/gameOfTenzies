@@ -4,7 +4,7 @@ import './die.css';
 
 const Die = (props) => {
    const styles={
-        backgroundColor: props.isHeld ? '#59E391' : 'transparent'
+        backgroundColor: props.isHeld ? '#59E391' : 'white'
     }
     return (
         <div className="dieFace" style={styles} onClick={props.holding}>
